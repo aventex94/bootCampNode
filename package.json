@@ -9,6 +9,7 @@
   "author": "Matias",
   "license": "ISC",
   "dependencies": {
-    "dates-of-today": "^1.0.0"
+    "dates-of-today": "^1.0.0",
+    "jsonfile": "^5.0.0"
   }
 }
