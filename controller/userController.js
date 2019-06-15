@@ -1,4 +1,4 @@
-const userMock = require('../mooks/users');
+const userMock = require('./app/mooks/users');
 
 module.exports = {
     v1:{
@@ -7,5 +7,6 @@ module.exports = {
 };
 
 function getAll(req,res){
+    
     res.status(200).send(userMock.ALL_USERS);
 }
